@@ -1,25 +1,40 @@
+
+
 body{
    padding:30px 10px;
   border:10px solid green;
-  border-radius:15px;  
-} 
+  border-radius:15px;
+}
+.jumbotron{
+    background-image: url("image/image1.jpg");
+  
+}
+h1{
+  text-align: center;
+}
+p{
+  color:black
+}
 #container{
   width:960px;
   margin:1px auto;
  }
-#left-column{
+.left-column{
   width:60%;
   float:left;
+  padding:0px 10px;
 }
-#right-column{
-  width:40%;
+.right-column{
+  width:40%
  float:right;
+ display:flex;
 }
 ul {
     list-style-type: none;
     margin: 0px 50px;
     padding: 0;
   overflow:hidden;
+  display:flex;
 }
 li a {
     display: block;
@@ -73,7 +88,7 @@ font-size:65px;
      width:100%;
      margin: 20px auto;
       padding:5px 5px;
-     border: 3px solid blue;
+     border: 3px solid black;
       border-radius:5px;
 }
 h2{color:blue;
@@ -81,7 +96,7 @@ font-size:25px;
   font-family:Georgia,Times New Roman;
 }
 
-.header-text{color:green;
+.header-text{color: blue;
 font-size:20px}
 p{font-size:15.5px;
 font-family:Times New Roman,Sans-Serif;}
@@ -107,10 +122,10 @@ font-family:Times New Roman,Sans-Serif;}
   #container{
     width:100%;
     }
-  #left-column{
+  .left-column{
     width:70%;
   }
- #right-column{
+ .right-column{
     width:30%;
   }
   img{
@@ -120,20 +135,20 @@ font-family:Times New Roman,Sans-Serif;}
 @media screen and (max-width: 654px){
    ul.topnav li.right, 
   ul.topnav li {float: none;}
-      #left-column{
+      .left-column{
     width:100%;
   }
- #right-column{
+ .right-column{
     width:100%;
   }
 }
 @media screen and (max-width: 800px){
    ul.topnav li.right, 
   ul.topnav li {float: none;}
-      #left-column{
+      .left-column{
     width:100%;
   }
- #right-column{
+ .right-column{
     width:100%;
   }
 }
